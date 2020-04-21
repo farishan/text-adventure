@@ -1,0 +1,91 @@
+{
+  "initialRoom": "street_01",
+  "rooms": [
+    {
+      "id": "street_01",
+      "name": "simple road 1",
+      "determinate": "a",
+      "short": "simple village road 1",
+      "long": "This is a simple road, leading to a simple village. There is very little of any excitement about it, except that it represents your first steps to becoming a creator!",
+      "light": 100,
+      "exits": [{"direction": "northeast", "room_id": "street_02"}],
+      "items": [
+        {"name": "village", "description": "that is a simple yet beautiful village."},
+        {"name": "road", "description": "you step on it, idiot."}
+      ]
+    },
+    {
+      "id":"street_02",
+      "name":"simple road 2",
+      "determinate":"a",
+      "short":"simple village road 2",
+      "long":"This is a simple road, next to a beautiful lake.",
+      "light":100,
+      "exits":[
+        {"direction":"southwest","room_id":"street_01"},
+        {"direction":"northeast","room_id":"street_03"}
+      ]
+    },
+    {
+      "id":"street_03",
+      "name":"simple road 3",
+      "determinate":"a",
+      "short":"simple village road 3",
+      "long":"This is a simple road.",
+      "light":100,
+      "exits":[
+        {"direction":"southwest","room_id":"street_02"},
+        {"direction":"east","room_id":"street_04"}
+      ]
+    },
+    {
+      "id":"street_04",
+      "name":"simple road 4",
+      "determinate":"a",
+      "short":"simple village road 4",
+      "long":"This is a simple road.",
+      "light":100,
+      "exits":[
+        {"direction":"north","room_id":"street_06"},
+        {"direction":"west","room_id":"street_03"},
+        {"direction":"east","room_id":"street_05"}
+      ]
+    },
+    {
+      "id":"street_05",
+      "name":"simple road",
+      "determinate":"a",
+      "short":"simple village road",
+      "long":"This is a simple road.",
+      "light":100,
+      "exits":[
+        {"direction":"west","room_id":"street_04"},
+        {"direction":"north","room_id":"street_07"}
+      ]
+    },
+    {
+      "id":"street_06",
+      "name":"simple road",
+      "determinate":"a",
+      "short":"simple village road",
+      "long":"This is a simple road.",
+      "light":100,
+      "exits":[
+        {"direction":"south","room_id":"street_04"},
+        {"direction":"east","room_id":"street_07"}
+      ]
+    },
+    {
+      "id":"street_07",
+      "name":"simple road",
+      "determinate":"a",
+      "short":"simple village road",
+      "long":"This is a simple road.",
+      "light":100,
+      "exits":[
+        {"direction":"south","room_id":"street_05"},
+        {"direction":"west","room_id":"street_06"}
+      ]
+    }
+  ]
+}
