@@ -1,0 +1,20 @@
+{
+  "name": "single-page-test",
+  "version": "1.0.0",
+  "description": "Need code bundler like parcel / webpack to run.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farishan/text-adventure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farishan/text-adventure/issues"
+  },
+  "homepage": "https://github.com/farishan/text-adventure#readme"
+}
